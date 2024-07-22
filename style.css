@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: navy;
+    color: rgb(12, 253, 12);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+section{
+    margin: 20px 0;
+    padding: 20px;
+    background-color:brown;
+    border-radius: 5px;
+    box-shadow: 0 0 5px ;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white; 
+
+}
+
+footer p{
+    margin: 0;
+}
