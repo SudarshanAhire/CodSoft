@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-color: rgb(138, 114, 114);
     font-family: Arial, sans-serif;
 }
 
 header{
-    background-color: navy;
-    color: rgb(12, 253, 12);
+    background-color: rgb(12, 12, 39);
+    color: rgb(222, 90, 14);
     padding: 20px;
     text-align: center;
 }
@@ -27,7 +27,7 @@ section{
     padding: 20px;
     background-color:brown;
     border-radius: 5px;
-    box-shadow: 0 0 5px ;
+    box-shadow: 0 0 2px ;
 }
 
 footer{
