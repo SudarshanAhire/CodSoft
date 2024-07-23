@@ -30,6 +30,32 @@ section{
     box-shadow: 0 0 2px ;
 }
 
+section h2{
+    margin-top: 0;
+}
+
+#about img{
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+ #skills ul{
+    list-style: none;
+    padding: 0; 
+} 
+
+#skills ul li{
+    background: black;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
 footer{
     text-align: center;
     padding: 10px;
