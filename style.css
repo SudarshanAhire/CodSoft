@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(138, 114, 114);
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
 
 header{
-    background-color: rgb(12, 12, 39);
-    color: rgb(222, 90, 14);
+    background-color: #333;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -25,7 +25,7 @@ header p{
 section{
     margin: 20px 0;
     padding: 20px;
-    background-color:brown;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 2px ;
 }
@@ -47,9 +47,10 @@ section h2{
 } 
 
 #skills ul li{
-    background: black;
-    color: white;
-    padding: 5px 0;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
     border-radius: 5px;
     text-align: center;
 }
@@ -59,8 +60,8 @@ section h2{
 footer{
     text-align: center;
     padding: 10px;
-    background-color: black;
-    color: white; 
+    background-color: #333;
+    color: #fff; 
 
 }
 
