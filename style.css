@@ -55,7 +55,9 @@ section h2{
     text-align: center;
 }
 
-
+#projects .project{
+    margin-bottom: 20px;
+}
 
 footer{
     text-align: center;
