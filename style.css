@@ -43,7 +43,7 @@ section h2{
 
  #skills ul{
     list-style: none;
-    padding: 0; 
+    /* padding: 0;  */
 } 
 
 #skills ul li{
@@ -57,6 +57,14 @@ section h2{
 
 #projects .project{
     margin-bottom: 20px;
+}
+
+#project img{
+    max-width: 250px;
+    height: 150px;
+    padding:10px;
+    display: block;
+    margin: 10px;
 }
 
 footer{
