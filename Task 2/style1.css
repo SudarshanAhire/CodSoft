@@ -46,6 +46,56 @@ body{
     font-size: 1 rem;
 }
 
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: white;
+    color: black;
+    padding: 2em 0;
+    text-align: center; 
+}
+
+.hero .btn {
+    background: black;
+    color: white;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.hero .btn:hover {
+    background: gray;
+}
+
+
+.about {
+    background: white;
+    color: black;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.services {
+    background: white;
+    color: black;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.service-box {
+    background: white;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} 
+
 .footer{
     background: black;
     color: white;
