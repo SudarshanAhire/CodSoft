@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(239, 22, 22);
-    color: black;
+    background-color: #f4f4f4;
+    color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -14,8 +14,8 @@ body{
 }
 
 .header{
-    background: black;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 1rem 0;
 }
 
@@ -61,15 +61,15 @@ h1, h2, h3, p, ul {
 }
 
 .hero {
-    background: white;
-    color: black;
+    background: #e2e2e2;
+    color: #333;
     padding: 2em 0;
     text-align: center; 
 }
 
 .hero .btn {
-    background: black;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 0.7em 1.2em;
     text-decoration: none;
     border-radius: 5px;
@@ -78,26 +78,26 @@ h1, h2, h3, p, ul {
 }
 
 .hero .btn:hover {
-    background: gray;
+    background: #555;
 }
 
 
 .about {
-    background: white;
-    color: black;
+    background: #fff;
+    color: #333;
     padding: 2em 0;
     text-align: center;
 }
 
 .services {
-    background: white;
-    color: black;
+    background: #f4f4f4;
+    color: #333;
     padding: 2em 0;
     text-align: center;
 }
 
 .service-box {
-    background: white;
+    background: #fff;
     padding: 1em;
     margin: 1em 0;
     border-radius: 5px;
@@ -105,8 +105,8 @@ h1, h2, h3, p, ul {
 } 
 
 .footer{
-    background: black;
-    color: white;
+    background: #333;
+    color: #fff;
     padding: 1rem o;
     text-align: center;
 }
