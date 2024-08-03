@@ -13,8 +13,9 @@ body{
     overflow: hidden;
 }
 
+
 .header{
-    background: #333;
+    background: #1b0707;
     color: #fff;
     padding: 1rem 0;
 }
@@ -44,14 +45,6 @@ body{
     color: #fff;
     text-decoration: none;
     font-size: 1 rem;
-}
-
-.header img{
-    height: 200px;
-    width: 800px;
-    margin: 0 auto;
-    padding: 0;
-    display: block;
 }
 
 h1, h2, h3, p, ul {
@@ -87,6 +80,7 @@ h1, h2, h3, p, ul {
     color: #333;
     padding: 2em 0;
     text-align: center;
+    
 }
 
 .services {
