@@ -1,2 +1,0 @@
-# CodSoft
-Task 1.
