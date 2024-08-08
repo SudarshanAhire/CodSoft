@@ -7,7 +7,7 @@ body{
     text-align:center;
 }
 
-.xyz{
+.box{
     background-color: rgb(19, 16, 16);
     margin: auto;
     padding: 10px;
@@ -28,7 +28,6 @@ body{
     border: 2px solid black;
     border-radius: 9px;
     cursor: pointer;
-    /* background-color: rgb(10, 37, 24); */
 }
 
 .row{
