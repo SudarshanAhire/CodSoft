@@ -1,9 +1,20 @@
 body{
-    background-color: black;
+    background-color: rgb(171, 156, 156);
+    color: rgb(134, 23, 23);
 }
 
 .center{
     text-align:center;
+}
+
+.xyz{
+    background-color: rgb(19, 16, 16);
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+
 }
 
 .container{
@@ -17,6 +28,7 @@ body{
     border: 2px solid black;
     border-radius: 9px;
     cursor: pointer;
+    /* background-color: rgb(10, 37, 24); */
 }
 
 .row{
