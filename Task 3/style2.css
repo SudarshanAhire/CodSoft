@@ -1,6 +1,10 @@
 body{
-    background-color: rgb(171, 156, 156);
+    background-color: rgba(108, 193, 229, 0.763);
     color: rgb(134, 23, 23);
+}
+
+section{
+    margin-top: 100px;
 }
 
 .center{
@@ -8,7 +12,7 @@ body{
 }
 
 .box{
-    background-color: rgb(19, 16, 16);
+    background-color: #030303;
     margin: auto;
     padding: 10px;
     border-radius: 15px;
@@ -28,6 +32,8 @@ body{
     border: 2px solid black;
     border-radius: 9px;
     cursor: pointer;
+    border: 5px solid black;
+    
 }
 
 .row{
