@@ -71,7 +71,7 @@ section h2::after{
     text-align: justify;
 }
 
- #skills ul{
+#skills ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -89,26 +89,50 @@ section h2::after{
     flex: 1 1 30%;
 }
 
-#projects .project{
-    margin-bottom: 20px;
+#resume button{
+    background-color: #b8860B;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+#resume button::hover{
+    background-color: #8B6914;
+}
+
+#projects div{
+    margin-top: 1.5rem;
 }
 
 #project img{
-    max-width: 250px;
-    height: 150px;
-    padding:10px;
-    display: block;
-    margin: 10px;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+#contact p{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+#contact a{
+    color: #B8860B;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    text-decoration: underline;
 }
 
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     background-color: #333;
-    color: #fff; 
+    color: #f0f0f0; 
 
-}
-
-footer p{
-    margin: 0;
 }
