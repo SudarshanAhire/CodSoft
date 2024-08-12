@@ -1,37 +1,49 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body{
+    background-color: #f7f7f7;
+    line-height: 1.6rem;
 }
 
 header{
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
 header h1{
-    margin: 0;
+    margin-bottom: 0.5rem;
     font-size: 2.5rem;
 }
 
 header p{
-    margin: 0;
-    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #f0f0f0;
 }
 
 section{
-    margin: 20px 0;
-    padding: 20px;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 2px ;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
 }
 
 section h2{
-    margin-top: 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+    position: relative;
 }
 
 #about img{
