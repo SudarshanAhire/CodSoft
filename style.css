@@ -46,6 +46,17 @@ section h2{
     position: relative;
 }
 
+section h2::after{
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: #B8860B;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
 #about img{
     max-width: 150px;
     border-radius: 50%;
