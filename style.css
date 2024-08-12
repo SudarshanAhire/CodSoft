@@ -21,6 +21,7 @@ header{
 header h1{
     margin-bottom: 0.5rem;
     font-size: 2.5rem;
+    color: white;
 }
 
 header p{
@@ -46,7 +47,7 @@ section h2{
     position: relative;
 }
 
-section h2::after{
+section h2:after{
     content: "";
     width: 50px;
     height: 4px;
@@ -90,6 +91,7 @@ section h2::after{
 }
 
 #resume button{
+    
     background-color: #b8860B;
     color: white;
     border: none;
@@ -100,7 +102,7 @@ section h2::after{
     transition: background-color 0.3s;
 }
 
-#resume button::hover{
+#resume button:hover{
     background-color: #8B6914;
 }
 
