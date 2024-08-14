@@ -18,20 +18,20 @@ body, h1, h2, p, ul{
 
 
 .header{
-    background: #1b0707;
-    color: #fff;
+    background-color: #1b0707;
     padding: 1rem 0;
 }
 
-.header  .navbar{
+ .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header .logo{
-    font-size: 1.5rem;
-    color: rgb(18, 205, 31);
+.logo{
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600px;
 }
 
 .header .nav-links{
