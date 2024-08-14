@@ -49,64 +49,83 @@ body, h1, h2, p, ul{
     font-weight: 400px;
 }
 
-.hero {
-    background: #e2e2e2;
-    color: #333;
-    padding: 2em 0;
-    text-align: center; 
-}
-
-.hero .btn {
-    background: #333;
-    color: #fff;
-    padding: 0.7em 1.2em;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 1em;
-}
-
-.hero .btn:hover {
-    background: #555;
-}
-
-
 .about {
     background: #fff;
     color: #333;
-    padding: 2em 0;
+    padding: 3em 0;
     text-align: center;
-    
+}
+
+.about h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about p{
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .services {
-    background: #f4f4f4;
-    color: #333;
-    padding: 2em 0;
+    background: #f9f9f9;
+    padding: 3rem 0;
     text-align: center;
 }
 
-.service-box {
+.services h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+
+.service-item {
     background: #fff;
-    padding: 1em;
-    margin: 1em 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-} 
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 280px;
+}
 
-.footer{
-    background: #333;
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-item p {
+    font-size: 1rem;
+}
+
+.footer {
+    background: #1b1b1b;
     color: #fff;
-    padding: 1rem o;
+    padding: 2rem 0;
     text-align: center;
 }
 
-.footer p{
+.footer p {
     margin: 0.5rem 0;
+}
+
+.footer .social-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.hidden {
+    display: none;
 } 
-
-
-
 
 .nav-links .btn-download {
     background: #ff6363;
