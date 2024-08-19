@@ -1,15 +1,14 @@
-
-
 body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -62,7 +61,7 @@ body, h1, h2, p, ul {
 }
 
 .hero {
-    background: linear-gradient(to right, #ff9966, #ff5e62);
+    background: url('hero-image.png') center center/cover no-repeat;
     color: #fff;
     padding: 5rem 0;
     display: flex;
@@ -79,7 +78,7 @@ body, h1, h2, p, ul {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4); 
     z-index: -1;
 }
 
@@ -189,4 +188,21 @@ body, h1, h2, p, ul {
 
 .hidden {
     display: none;
-} 
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .services-grid {
+        flex-direction: column;
+    }
+
+    .service-item {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
